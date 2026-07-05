@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blossom Therapy — Heal. Grow. Blossom.</title>
+  <meta name="description" content="Blossom Therapy — heal, grow, and blossom through authentic attachment. Our new website is coming soon.">
+  <!-- Placeholder page: noindex keeps the "coming soon" out of search results.
+       The real site (from Claude Design) will replace this file and won't include it. -->
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='5' y='6' width='16' height='18' rx='6' fill='%23d9b3a8'/><rect x='11' y='9' width='16' height='18' rx='6' fill='%23cd9585' opacity='0.78'/></svg>">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --ink: #6e6763;      /* warm gray, matches the wordmark */
+      --muted: #a99e97;
+      --rose: #c68a78;
+      --rose-dark: #ac6a56;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body { margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      min-height: 100svh;
+      display: flex;
+      background-color: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.6;
+    }
+
+    main {
+      margin: auto;
+      width: 100%;
+      max-width: 34rem;
+      padding: 2.5rem 1.5rem 3rem;
+      text-align: center;
+      animation: rise 0.9s ease-out both;
+    }
+
+    .logo {
+      display: block;
+      width: min(78vw, 380px);
+      height: auto;
+      margin: 0 auto 2.25rem;
+    }
+
+    .eyebrow {
+      margin: 0 0 1.1rem;
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--rose);
+    }
+
+    .message {
+      margin: 0 auto 2.1rem;
+      max-width: 28rem;
+      font-size: 1.02rem;
+      font-weight: 300;
+      color: var(--ink);
+    }
+
+    .contact {
+      display: inline-block;
+      font-size: 1.08rem;
+      letter-spacing: 0.01em;
+      color: var(--rose-dark);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(172, 106, 86, 0.35);
+      padding-bottom: 2px;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .contact:hover,
+    .contact:focus-visible {
+      color: var(--rose);
+      border-color: var(--rose);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.78rem;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+    }
+
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(12px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      main { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="images/logo.jpg"
+         alt="Blossom Therapy — Heal. Grow. Blossom. Through Authentic Attachment">
+    <p class="eyebrow">Website Coming Soon</p>
+    <p class="message">
+      We're putting the finishing touches on our new online home.
+      In the meantime, we'd love to hear from you.
+    </p>
+    <a class="contact" href="mailto:marcia@healgrowblossomtherapy.com">marcia@healgrowblossomtherapy.com</a>
+    <footer>© 2026 Blossom Therapy</footer>
+  </main>
+</body>
+</html>

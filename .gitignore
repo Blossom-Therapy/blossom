@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Editor / OS cruft
+*.swp
+Thumbs.db
+
+# Secrets / environment — never commit to a public repo
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json

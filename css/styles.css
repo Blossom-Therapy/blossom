@@ -230,9 +230,12 @@ textarea:focus-visible {
   }
 
   .site-nav .nav-cta {
-    margin-top: 16px;
-    width: auto;
+    margin-top: 8px;
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 0;
     border-bottom: 0;
+    text-align: left;
   }
 }
 
@@ -254,6 +257,9 @@ textarea:focus-visible {
   margin: 0;
   text-align: center;
 }
+
+/* Keep "in Nashville" together if the headline ever wraps */
+.headline-band h1 .nb { white-space: nowrap; }
 
 .hero {
   padding: 64px 56px 96px;
@@ -526,6 +532,8 @@ textarea:focus-visible {
 .tagline-band p em {
   font-style: italic;
   color: var(--rose-line);
+  /* If the tagline wraps, break cleanly after "Blossom." */
+  white-space: nowrap;
 }
 
 /* --------------------------------------------------------------------------
@@ -945,9 +953,13 @@ textarea:focus-visible {
 @media (max-width: 640px) {
   .headline-band h1 { font-size: 25px; }
 
-  .brand img { height: 38px; }
+  .headline-band h1 .nb { display: block; }
 
-  .brand span { font-size: 14px; letter-spacing: 0.22em; }
+  .tagline-band p em { display: block; }
+
+  .brand img { height: 40px; }
+
+  .brand span { font-size: 15px; letter-spacing: 0.24em; }
 
   .hero .hero-lede { font-size: 20px; }
 
@@ -958,4 +970,8 @@ textarea:focus-visible {
   .location h2 { font-size: 26px; }
 
   .tagline-band p { font-size: 22px; }
+}
+
+@media (max-width: 400px) {
+  .tagline-band p { font-size: 20px; }
 }

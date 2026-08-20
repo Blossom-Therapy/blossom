@@ -216,7 +216,7 @@ textarea:focus-visible {
     display: none;
     flex-basis: 100%;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 0;
     padding: 8px 2px 14px;
   }
@@ -226,16 +226,18 @@ textarea:focus-visible {
   .site-nav a {
     padding: 12px 0;
     width: 100%;
+    text-align: center;
     border-bottom: 1px solid #f3edeb;
   }
 
+  /* Location (last plain item): no divider hanging past the pill below it */
+  .site-nav a:nth-last-of-type(2) { border-bottom: 0; }
+
   .site-nav .nav-cta {
-    margin-top: 8px;
     width: 100%;
-    padding: 12px 14px;
-    border-radius: 0;
+    padding: 16px 24px;
+    border-radius: 40px;
     border-bottom: 0;
-    text-align: left;
   }
 }
 

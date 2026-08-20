@@ -3,114 +3,320 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blossom Therapy — Heal. Grow. Blossom.</title>
-  <meta name="description" content="Blossom Therapy — heal, grow, and blossom through authentic attachment. Our new website is coming soon.">
-  <!-- Placeholder page: noindex keeps the "coming soon" out of search results.
-       The real site (from Claude Design) will replace this file and won't include it. -->
-  <meta name="robots" content="noindex">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='5' y='6' width='16' height='18' rx='6' fill='%23d9b3a8'/><rect x='11' y='9' width='16' height='18' rx='6' fill='%23cd9585' opacity='0.78'/></svg>">
-  <style>
-    :root {
-      --bg: #ffffff;
-      --ink: #6e6763;      /* warm gray, matches the wordmark */
-      --muted: #a99e97;
-      --rose: #c68a78;
-      --rose-dark: #ac6a56;
-    }
-
-    * { box-sizing: border-box; }
-
-    html, body { margin: 0; padding: 0; }
-
-    body {
-      min-height: 100vh;
-      min-height: 100svh;
-      display: flex;
-      background-color: var(--bg);
-      color: var(--ink);
-      font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      -webkit-font-smoothing: antialiased;
-      line-height: 1.6;
-    }
-
-    main {
-      margin: auto;
-      width: 100%;
-      max-width: 34rem;
-      padding: 2.5rem 1.5rem 3rem;
-      text-align: center;
-      animation: rise 0.9s ease-out both;
-    }
-
-    .logo {
-      display: block;
-      width: min(78vw, 380px);
-      height: auto;
-      margin: 0 auto 2.25rem;
-    }
-
-    .eyebrow {
-      margin: 0 0 1.1rem;
-      font-size: 0.72rem;
-      font-weight: 500;
-      letter-spacing: 0.28em;
-      text-transform: uppercase;
-      color: var(--rose);
-    }
-
-    .message {
-      margin: 0 auto 2.1rem;
-      max-width: 28rem;
-      font-size: 1.02rem;
-      font-weight: 300;
-      color: var(--ink);
-    }
-
-    .contact {
-      display: inline-block;
-      font-size: 1.08rem;
-      letter-spacing: 0.01em;
-      color: var(--rose-dark);
-      text-decoration: none;
-      border-bottom: 1px solid rgba(172, 106, 86, 0.35);
-      padding-bottom: 2px;
-      transition: color 0.2s ease, border-color 0.2s ease;
-    }
-
-    .contact:hover,
-    .contact:focus-visible {
-      color: var(--rose);
-      border-color: var(--rose);
-    }
-
-    footer {
-      margin-top: 3rem;
-      font-size: 0.78rem;
-      letter-spacing: 0.04em;
-      color: var(--muted);
-    }
-
-    @keyframes rise {
-      from { opacity: 0; transform: translateY(12px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      main { animation: none; }
-    }
-  </style>
+  <title>Blossom Therapy | Individual &amp; Couples Therapy in Nashville</title>
+  <meta name="description" content="Attachment-focused individual and couples therapy in Nashville with Marcia Truitt, AMFT. Heal, grow, and blossom through authentic attachment to self and others.">
+  <link rel="canonical" href="https://healgrowblossomtherapy.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Blossom Therapy | Individual &amp; Couples Therapy in Nashville">
+  <meta property="og:description" content="Attachment-focused individual and couples therapy in Nashville with Marcia Truitt, AMFT.">
+  <meta property="og:url" content="https://healgrowblossomtherapy.com/">
+  <meta property="og:site_name" content="Blossom Therapy">
+  <meta property="og:image" content="https://healgrowblossomtherapy.com/images/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Blossom Therapy — Individual &amp; Couples Therapy in Nashville">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#2d425e">
+  <link rel="icon" href="images/favicon.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "MedicalBusiness"],
+    "name": "Blossom Therapy",
+    "description": "Attachment-focused individual and couples therapy in Nashville with Marcia Truitt, AMFT.",
+    "url": "https://healgrowblossomtherapy.com/",
+    "image": "https://healgrowblossomtherapy.com/images/og.jpg",
+    "logo": "https://healgrowblossomtherapy.com/images/logo.jpg",
+    "priceRange": "$140-$180",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "210 25th Ave N. Suite 700",
+      "addressLocality": "Nashville",
+      "addressRegion": "TN",
+      "postalCode": "37203",
+      "addressCountry": "US"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Nashville"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Marcia Truitt",
+      "honorificSuffix": "AMFT",
+      "jobTitle": "Individual & Couples Therapist"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "09:00", "closes": "16:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "12:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "10:00", "closes": "17:00" }
+    ]
+  }
+  </script>
 </head>
 <body>
-  <main>
-    <img class="logo" src="images/logo.jpg"
-         alt="Blossom Therapy — Heal. Grow. Blossom. Through Authentic Attachment">
-    <p class="eyebrow">Website Coming Soon</p>
-    <p class="message">
-      We're putting the finishing touches on our new online home.
-      In the meantime, we'd love to hear from you.
-    </p>
-    <a class="contact" href="mailto:marcia@healgrowblossomtherapy.com">marcia@healgrowblossomtherapy.com</a>
-    <footer>© 2026 Blossom Therapy</footer>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="page">
+
+  <header class="site-header">
+    <a class="brand" href="#top">
+      <img src="images/logo.jpg" alt="" width="50" height="50">
+      <span>BLOSSOM&nbsp;THERAPY</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Site">
+      <a href="#specialties">Specialties</a>
+      <a href="#about">About</a>
+      <a href="#approach">Approach</a>
+      <a href="#rates">Rates</a>
+      <a href="#location">Location</a>
+      <a class="nav-cta" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="headline-band" id="top">
+      <h1>Individual &amp; Couples Therapy in Nashville</h1>
+    </section>
+
+    <section class="hero">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="hero-lede">Welcome! I am so glad you are here.</p>
+          <p>I believe healing begins in the context of safe and secure relationships, when your pain is tenderly witnessed and held by someone who cares. Therefore, I am dedicated to creating a compassionate and safe space where you can feel seen, heard and understood.</p>
+          <p>I would be honored to join you in your therapeutic journey as you heal, grow and blossom through authentic attachment to self and others.</p>
+          <a class="btn" href="#contact">Let&rsquo;s Connect</a>
+        </div>
+        <img class="hero-photo" src="images/hero-marcia.jpg" alt="Marcia Truitt" fetchpriority="high">
+      </div>
+    </section>
+
+    <section class="philosophy" aria-label="Philosophy">
+      <p>Attachment-focused therapy for individuals and couples.</p>
+    </section>
+
+    <section class="credentials" id="specialties">
+      <div class="inner">
+        <div class="cols">
+          <div>
+            <h2>Clinical Specialties</h2>
+            <p class="lead">I specialize in working with individuals who are experiencing:</p>
+            <ul class="specialty-list">
+              <li>Grief and Loss</li>
+              <li>Anxiety</li>
+              <li>Depression</li>
+              <li>Hurt from Unprocessed Trauma</li>
+              <li>Relationship Conflict and Disconnection</li>
+              <li>Difficult Life Transitions</li>
+              <li>Perfectionism and Self Criticism</li>
+              <li>Dysfunctional Family Systems</li>
+            </ul>
+          </div>
+          <div class="training">
+            <h2>Education &amp; Advanced Training</h2>
+            <p class="stage">Completed</p>
+            <p>Master of Marriage &amp; Family Therapy from <em>Lipscomb University</em></p>
+            <p>Advanced Training in Play Therapy</p>
+            <p>Cognitive Processing Therapy from <em>Medical University of South Carolina</em></p>
+            <p>Gottman Method Couples Therapy Level 1</p>
+            <p>Prepare Enrich Certified Facilitator</p>
+            <p class="stage in-process">In Process</p>
+            <p>EMDR Training</p>
+            <p>Certification in Emotionally Focused Individual Therapy through <em>ICEEFT</em></p>
+            <p class="affiliation">Member of the American Association for Marriage and Family Therapy</p>
+            <p class="supervision">Under the clinical supervision of Courtney Nash (License #2350).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="inner">
+        <div class="about-layout">
+          <div class="about-media">
+            <p class="eyebrow">About the therapist</p>
+            <img src="images/marcia.jpg" alt="Marcia Truitt" loading="lazy">
+          </div>
+          <div class="about-body">
+            <h2>Marcia Truitt, <span class="credential">AMFT</span></h2>
+            <p class="role">Individual &amp; Couples Therapist</p>
+            <p>My path to becoming a therapist was shaped by my own experience as a therapy client. I am deeply grateful for each of the therapists who have supported me individually, my marriage and our family. Walking through hardships and suffering has changed me to approach life with deeper humility, empathy, and kindness toward myself and others.</p>
+            <p>In addition to my clinical training, my experience of growing up in Ecuador, and later living in Mexico as an adult, has shaped my deep appreciation for cultures and diversity. I bring a sense of deep curiosity about the unique life experiences of each client. I strive to highlight their strengths, and celebrate their beautiful differences.</p>
+            <p>I am a relentless optimist about how the therapeutic experience can change lives bringing healing and growth. I genuinely love this work!</p>
+            <p>Outside of the therapy room, I enjoy spending time with my husband and two teens - cooking together, playing board games or listening to my husband read us chapter books outloud. (Yes, our kids feel they are getting too old for this, but I&rsquo;m not yet ready to give up these sweet moments with them.) I also enjoy connecting with close friends, watching movies, going on long walks, reading, traveling the world and eating all types of international food.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="approach" id="approach">
+      <div class="inner">
+        <div class="approach-copy">
+          <h2 class="eyebrow">Therapeutic approach</h2>
+          <p>I believe all individuals have a core need to be deeply connected to themselves and to others. These safe and secure attachments are vital for our survival.</p>
+          <p>I am passionate about helping you develop an authentic and compassionate connection with your inner self, through gently exploring the parts of your story which have brought deep hurt and isolation. Together, we will practice being attuned to what is happening inside you, holding and engaging your vulnerable emotions instead of avoiding them. We will notice how you have learned to cope, the skills you have developed to survive. We will be curious about how your coping skills might have become maladaptive, continuing to negatively impact you today. Together, we will explore what meaning you have made from these painful life experiences, what negative messages you have believed, before we gently seek the truer truth that you can hold instead.</p>
+          <p>I believe you must know yourself authentically, so that you can love yourself deeply.</p>
+          <p>This is safe and secure attachment to self.</p>
+          <p>I am also passionate about helping you develop authentic and secure attachments with others through learning how to be accessible, responsive and engaged emotionally. When you have the ability to give and receive love from safe others, you will carry a felt sense of security through life which allows you to venture out into the new and unknown, just like a toddler on a playground who knows their parent is nearby.</p>
+          <p>As a therapist, my deepest desire is for you to be fully known, and deeply loved by self and others!</p>
+          <p>Creating these healthy and strong relationships with ourselves and others is a lifelong process that requires intentional and tender nurturing.</p>
+          <p>I will meet you where you are in your journey and adjust the pace of our work together to meet your individual needs.</p>
+          <hr class="divider">
+          <p>My therapeutic approach is rooted in attachment science and utilizes evidence based practices. I integrate interventions from Emotionally Focused Therapy for couples and individuals, Cognitive Behavioral Therapy, and Solution Focused Therapy. I am close to completing my training in EMDR, an evidenced based treatment found to be extremely beneficial in working with all types of trauma including PTSD.</p>
+          <p>I believe that individuals are beautifully complex beings made up of emotions, thoughts and behaviors. Together, we will notice how these are connected and affect each other, in both positive and negative ways.</p>
+          <p>I recognize the deep connection between emotional, mental and physical health. This holistic framework guides my integrated work to healing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="tagline-band" aria-label="Tagline">
+      <div class="inner">
+        <img src="images/logo.jpg" alt="" width="150" height="150" loading="lazy">
+        <p>Heal. Grow. Blossom. <em>Through Authentic Attachment.</em></p>
+      </div>
+    </section>
+
+    <section class="rates" id="rates">
+      <div class="inner">
+        <h2 class="eyebrow">Rates &amp; availability</h2>
+        <div class="rate-cards">
+          <div class="rate-card">
+            <div class="price">$140</div>
+            <div class="desc">Individual therapy<br><span>50-minute clinical hour</span></div>
+          </div>
+          <div class="rate-card">
+            <div class="price">$180</div>
+            <div class="desc">Couples therapy<br><span>50-minute clinical hour</span></div>
+          </div>
+        </div>
+        <p class="note reduced">I offer a limited number of reduced-rate sessions based on need. If you want to apply, please contact me to see if you meet the criteria.</p>
+        <p class="note private-pay">Blossom Therapy is private pay only. Insurance is not accepted at this time.</p>
+        <div class="hours">
+          <div class="day">
+            <div class="day-name">Tuesdays</div>
+            <div class="day-time">9 &ndash; 4</div>
+            <div class="day-note">Virtual only</div>
+          </div>
+          <div class="rule" role="presentation"></div>
+          <div class="day">
+            <div class="day-name">Wednesdays</div>
+            <div class="day-time">12 &ndash; 7</div>
+            <div class="day-note">In office or virtual</div>
+          </div>
+          <div class="rule" role="presentation"></div>
+          <div class="day">
+            <div class="day-name">Thursdays</div>
+            <div class="day-time">10 &ndash; 5</div>
+            <div class="day-note">In office or virtual</div>
+          </div>
+        </div>
+        <p class="appointment">Sessions are by appointment only.</p>
+        <div class="cta">
+          <a class="btn" href="#contact">Schedule a session</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="location" id="location">
+      <div class="inner">
+        <div class="location-layout">
+          <div>
+            <p class="eyebrow">Location</p>
+            <h2>Midtown Therapy Space</h2>
+            <p class="address">210 25th Ave N. Suite 700, Nashville, TN 37203</p>
+            <p class="detail">My office is in the Midtown Therapy Space. Free parking is available on the lower levels of the building. Elevators will bring you up to the waiting room where I will meet you.</p>
+            <p class="detail">My office is wheelchair accessible.</p>
+          </div>
+          <div class="photos">
+            <img src="images/office1.jpg" alt="Waiting room" loading="lazy">
+            <img src="images/office2.jpg" alt="Therapy office" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="inner">
+        <p class="eyebrow">Contact</p>
+        <h2>Interested in working with me? Please fill out the form below and I will reach out to schedule your free 15-minute consultation to assess if I am a good fit for your needs.</h2>
+        <form name="contact" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact">
+          <p class="sr-only" aria-hidden="true">
+            <label>Don&rsquo;t fill this out if you&rsquo;re human: <input name="bot-field"></label>
+          </p>
+          <div class="field-row">
+            <div>
+              <label class="sr-only" for="first-name">First name</label>
+              <input type="text" id="first-name" name="first-name" placeholder="First name *" autocomplete="given-name" required>
+            </div>
+            <div>
+              <label class="sr-only" for="last-name">Last name</label>
+              <input type="text" id="last-name" name="last-name" placeholder="Last name *" autocomplete="family-name" required>
+            </div>
+          </div>
+          <div class="field-row">
+            <div>
+              <label class="sr-only" for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="Phone *" autocomplete="tel" required>
+            </div>
+            <div>
+              <label class="sr-only" for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Email *" autocomplete="email" required>
+            </div>
+          </div>
+          <div>
+            <label class="sr-only" for="message">I&rsquo;m seeking therapy for&hellip;</label>
+            <textarea id="message" name="message" placeholder="I&rsquo;m seeking therapy for&hellip; *" rows="3" required></textarea>
+          </div>
+          <label class="consent">
+            <input type="checkbox" name="private-pay-acknowledged" value="yes" required>
+            <span>I understand this is a private-pay practice and that insurance is <em>not</em> accepted.</span>
+          </label>
+          <label class="consent">
+            <input type="checkbox" name="response-time-acknowledged" value="yes" required>
+            <span>I understand that this is <em>not</em> an emergency service and therefore responses may take up to two business days.</span>
+          </label>
+          <button class="submit" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="gfe" aria-label="Good Faith Estimate">
+      <p>Under the No Surprises Act, clients who are not using insurance are entitled to a Good Faith Estimate of expected costs before treatment begins. If you&rsquo;d like one, note it in your inquiry and I&rsquo;ll send it to you.</p>
+    </section>
+
   </main>
+
+  <footer class="site-footer">
+    <img src="images/logo.jpg" alt="" width="110" height="110" loading="lazy">
+    <div class="wordmark">BLOSSOM&nbsp;THERAPY</div>
+    <p class="legal">Member of the American Association for Marriage and Family Therapy. Under the clinical supervision of Courtney Nash (License #2350).</p>
+    <p class="copyright">&copy; 2026 Blossom Therapy</p>
+  </footer>
+
+  </div>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('.nav-toggle');
+      toggle.addEventListener('click', function () {
+        var open = document.body.classList.toggle('nav-open');
+        toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+      document.querySelectorAll('.site-nav a').forEach(function (link) {
+        link.addEventListener('click', function () {
+          document.body.classList.remove('nav-open');
+          toggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
